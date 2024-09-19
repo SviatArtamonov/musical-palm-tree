@@ -1,0 +1,44 @@
+
+// файл обнуляющих стилей
+@import "_nullstyle.scss";
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0px 0px;
+
+    position: absolute;
+    width: 850px;
+    height: 64px;
+    left: 295px;
+    top: 0px;
+
+}
+.logo {
+ 
+}
+.olllink a{
+    width: 67px;
+    height: 16px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+    
+    
+    color: #1B63F0;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+.Explore {
+}
